@@ -115,7 +115,7 @@ public class Network {
     public String toString() {
         String result = "Network:\n";
         for (int i = 0; i < userCount; i++) {
-            result += users[i].toString();
+            result += users[i].toString() + "\n";
         }
         if (result.endsWith("\n")) {
             result = result.substring(0, result.length() - 1);
